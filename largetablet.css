@@ -1,0 +1,212 @@
+header{
+    background-color: #0d88d0;
+    padding: 20px;
+    margin: -8px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+header img{
+    width: 8%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    font-size: 20px;
+    color: rgb(19, 15, 15);
+}
+header h1 span{
+    color: white;
+}
+header label{
+    color: white;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff00;
+  }
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+.topnav a:hover {
+    border-bottom: 3px solid rgb(55, 24, 233);
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #424d98;
+    
+  }
+  
+  
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    color: black;
+}
+
+
+.dropdown a{
+    float: left;
+    font-size: 16px;
+    color: rgb(8, 7, 7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown a:hover, .dropbtn{
+    background-color: rgb(101, 108, 199)
+}
+.dropdown .dropbtn{
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: rgb(231, 216, 216);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.tablink {
+    background-color: #1b7bb3;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+}
+
+.tablink:hover {
+    background-color: rgb(38, 36, 156);
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;  
+    text-align: center;
+}
+#London {background-position: center; background-size: cover; background-image: url(https://ultimatedestinations.co.uk/wp-content/uploads/2017/01/Teak-decking-Maldives-2000x1000.jpg);}
+#Paris {background-size: cover;   background-image: url(https://d2c8orla013wc0.cloudfront.net/Categories/Flights_1.jpg);}
+#Tokyo {background-size: cover;  background-position: center; background-size: cover;  background-image: url(https://images.unsplash.com/photo-1522060903966-42cdaca5f7e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1485&q=80);}
+#Oslo {background-size: cover;  background-position: center;background-image: url(https://photos.mandarinoriental.com/is/image/MandarinOriental/paris-2017-home?wid=2880&hei=1280&fmt=jpeg&crop=9,336,2699,1200&anchor=1358,936&qlt=75,0&fit=wrap&op_sharpen=0&resMode=sharp2&op_usm=0,0,0,0&iccEmbed=0&printRes=72);}
+#Helsinki{background-size: cover;  background-position: center; background-image: url(https://images.unsplash.com/photo-1471189641895-16c58a695bcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2101&q=80);}
+.select2{
+    width:56%;
+}
+
+main{
+    margin-left: -8px;
+    margin-right: -8px; 
+}
+
+select, .check, .search{
+    
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+}
+.search{
+    background-color: blue;
+    color: white;
+}
+
+.second{
+    background-color: rgb(247, 235, 235);
+}
+
+.second{
+    padding-top: 10%;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+}
+.finnair{
+    font-size: 20px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+.finnair a{
+    text-decoration: none;
+    color: #1b7bb3;
+}
+.finnair a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: white;
+    color: rgb(83, 80, 80);
+    font-size: 20px;
+    
+    padding-top: 10%;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+}
+footer a{
+    
+    text-decoration: none;
+    color: #5e5858;
+}
+footer a:hover{
+    text-decoration: underline;
+}
